@@ -1,8 +1,21 @@
-# npm init react-app display
-# npm i -D electron electron-builder concurrently wait-on
-# npm i cross-env electron-is-dev
+# Install React App
+```
+$ create-react-app appName
+```
+or
+```
+$ npm init react-app appName
+```
+# Install electron
+```
+$ npm i -D electron electron-builder concurrently wait-on
+```
+# Install dependences
+```
+$ npm i cross-env electron-is-dev
+```
 
-### conf for public/electron.js
+# Config public/electron.js
 ``` JS
 const { app, BrowserWindow } = require('electron')
 const path = require('path')
@@ -88,9 +101,11 @@ to this:
     "start": "concurrently \"cross-env BROWSER=none npm run react-start\" \"wait-on http://localhost:3000 && electron .\""
   },
 ```
-
-# npm run build
-
-# If you whant to change the electron app icon, read [this docs](https://medium.com/fantageek/changing-electron-app-icon-acf26906c5ad)
-# If you have some questions, go to [video](https://www.youtube.com/watch?v=Cdu2O6o2DCg)
+# Run build
+```
+$ npm run build
+```
+# And one more thing
+If you whant to change the electron app icon, read [this docs](https://medium.com/fantageek/changing-electron-app-icon-acf26906c5ad)
+If you have some questions, go to [video](https://www.youtube.com/watch?v=Cdu2O6o2DCg)
 # That's all, you did it! 😇
