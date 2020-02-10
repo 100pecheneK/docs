@@ -3,11 +3,11 @@
 $ create-react-app appName
 ```
 # Install electron
-```
+```sh
 $ npm i -D electron electron-builder concurrently wait-on
 ```
 # Install dependences
-```
+```sh
 $ npm i cross-env electron-is-dev
 ```
 
@@ -98,7 +98,7 @@ to this:
   },
 ```
 # Run build
-```
+```sh
 $ npm run build
 ```
 # And one more thing
