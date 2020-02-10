@@ -2,10 +2,6 @@
 ```
 $ create-react-app appName
 ```
-or
-```
-$ npm init react-app appName
-```
 # Install electron
 ```
 $ npm i -D electron electron-builder concurrently wait-on
