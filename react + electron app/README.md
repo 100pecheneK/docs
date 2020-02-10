@@ -1,5 +1,5 @@
 # Install React App
-```bash
+```
 $ create-react-app appName
 ```
 # Install electron
