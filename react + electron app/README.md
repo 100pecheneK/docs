@@ -4,13 +4,16 @@ $ create-react-app appName
 ```
 # Install electron
 ```sh
-$ npm i -D electron electron-builder concurrently wait-on
+$ yarn add -D electron electron-builder
 ```
-# Install dependences
+# Install dependences for development
 ```sh
-$ npm i cross-env electron-is-dev
+$ yarn add cross-env electron-is-dev concurrently wait-on
 ```
-
+# Full script
+```sh
+$ create-react-app my-app; yarn add -D electron electron-builder cross-env electron-is-dev concurrently wait-on 
+```
 # Config public/electron.js
 ``` JS
 const { app, BrowserWindow } = require('electron')
