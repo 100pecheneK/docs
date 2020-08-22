@@ -8,7 +8,7 @@ $ yarn add -D electron electron-builder
 ```
 # Install dependences for development
 ```sh
-$ yarn add cross-env electron-is-dev concurrently wait-on
+$ yarn add -D cross-env electron-is-dev concurrently wait-on
 ```
 # Full script
 ```sh
