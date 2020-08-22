@@ -8,11 +8,11 @@ $ yarn add -D electron electron-builder
 ```
 # Install dependences for development
 ```sh
-$ yarn add -D cross-env electron-is-dev concurrently wait-on
+$ yarn add cross-env electron-is-dev concurrently wait-on
 ```
 # Full script
 ```sh
-$ create-react-app {my-app}; cd {my-app}; yarn add -D electron electron-builder cross-env electron-is-dev concurrently wait-on 
+$ create-react-app {my-app}; cd {my-app}; yarn add -D electron electron-builder; yarn add cross-env electron-is-dev concurrently wait-on 
 ```
 # Config public/electron.js
 ``` JS
